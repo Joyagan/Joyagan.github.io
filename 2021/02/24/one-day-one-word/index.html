@@ -625,6 +625,33 @@
     </div>
 
     
+        <link rel="stylesheet" href="/libs/gitalk/gitalk.css">
+<link rel="stylesheet" href="/css/my-gitalk.css">
+
+<div class="card gitalk-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="gitalk-container" class="card-content"></div>
+</div>
+
+<script src="/libs/gitalk/gitalk.min.js"></script>
+<script>
+    let gitalk = new Gitalk({
+        clientID: '1d7d5d7fb449f179042a',
+        clientSecret: '3b0e98c2e72e56805adac791621681594289c0b4',
+        repo: 'Joyagan.github.io',
+        owner: 'Joyagan',
+        admin: "Joyagan",
+        id: '2021-02-24T11-15-24',
+        distractionFreeMode: false  // Facebook-like distraction free mode
+    });
+
+    gitalk.render('gitalk-container');
+</script>
+
+    
 
     
 
@@ -645,18 +672,17 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;Current
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/2021/02/24/one-day-one-word/">
+                <a href="/2021/02/26/%E5%9F%BA%E9%87%91-1/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="one-day-one-word">
+                        <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="基金">
                         
-                        <span class="card-title">one-day-one-word</span>
+                        <span class="card-title">基金</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -666,9 +692,9 @@
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-02-24
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-02-26
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -677,7 +703,6 @@
                         </span>
                     </div>
                 </div>
-
                 
             </div>
         </div>
